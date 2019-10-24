@@ -55,9 +55,9 @@ void Plot(LogisticMap Logistic)
 
 int main()
 {
-	LogisticMap *LMap = new LogisticMap(100, 0.1, 3); // The number of y values to compute, intial x, and a
+	LogisticMap LMap = LogisticMap(100, 0.1, 3); // The number of y values to compute, intial x, and a
 
-	LMap->ComputeX();
-	Plot(*LMap);
+	LMap.ComputeX();
+	Plot(LMap);
     return 0;
 }
