@@ -1,5 +1,7 @@
 # Logistic Map
 
+[![CodeFactor](https://www.codefactor.io/repository/github/thomasthelen/logistic-map/badge)](https://www.codefactor.io/repository/github/thomasthelen/logistic-map)
+
 ## Background
 
 The logistic mapping is an easy recurrence relation that can be used to explore chaos.
