@@ -25,6 +25,8 @@ We open a pipe to gnuplot, see [here](https://github.com/ThomasThelen/Logistic-M
 ### Math Code
 The math is fairly simple. The [LogisticMap](https://github.com/ThomasThelen/Logistic-Map/blob/master/main.cpp#L11) class represents a logistic map. 
 
+The heavy lifting is done in `void LogisticMap::ComputeX()`, which just computes the successive value by the rules of the logistic mapping.
+
 
 ## Use
 
